@@ -4,10 +4,10 @@
 }
 
 body {
-    background: url(./assets/img/backgorund3.gif);
+    /*background: url(./assets/img/backgorund3.gif);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: auto;*/
     background-color: black;
 }
 
@@ -25,7 +25,7 @@ a{
     width: 30%;
     padding-left: 30px;
 }
-.flexbox-div {
+.flexbox-container-nav {
     display: flex;
     background: url(./assets/img/header-texture.jpg);
     background-repeat: no-repeat;
@@ -39,7 +39,10 @@ a{
 }
 
 .flexbox-nav {
+    display: flex;
     width: 30%;
+    margin-right: 10px;
+    
 }
 
 .flexbox-list {
@@ -51,6 +54,72 @@ a{
     padding: 0;
     margin: 0;
     font-family: "titulos";
+    
+}
+.flexbox-list li:hover{
+    background-image: url(./assets/img/hover.gif);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+.flexbox-container-header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container-header1{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid white;
+
+}
+.container-header1 img{
+    border-radius: 100%;
+    box-shadow: 0 0 30px rgb(255 255 255 / 30%);
+}
+.name{
+    color: white;
+}
+
+.container-header2{
+    display: flex;
+    color:white;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-header3{
+    display: flex;
+    color: white;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-header3 img{
+    width: 30px;
+    height: 30px;
+}
+.flexbox-container-body{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+}
+.flexbox-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
 }
 .musicote{
 margin-top: 50px;
@@ -59,9 +128,15 @@ justify-content: center;
 align-items: center;
 }
 
+.flexbox-div{
+    display: flex;
+    color: white;
+
+}
+
 
 @media (max-width: 425px) {
-    .flexbox-div {
+    .flexbox-container-nav {
         justify-content: center;
         width: 90%;
     }
@@ -72,6 +147,7 @@ align-items: center;
 
     .flexbox-nav {
         width: 100%;
+        margin-right: 0;
     }
 
     body {
