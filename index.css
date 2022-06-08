@@ -121,6 +121,19 @@ a{
     flex-direction: column;
     width: 33%;
 }
+.container-buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.btn{
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+}
 .musicote{
 margin-top: 50px;
 display: flex;
