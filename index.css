@@ -1,6 +1,10 @@
 @font-face {
     font-family: 'titulos';
-    src: url(./assets/fonts/Monumental.ttf);
+    src: url(./assets/fonts/NewsCycle-Bold.ttf)
+}
+@font-face {
+    font-family: 'all';
+    src: url(./assets/fonts/NewsCycle-Regular.ttf)
 }
 
 body {
@@ -9,6 +13,7 @@ body {
     background-repeat: no-repeat;
     background-size: auto;*/
     background-color:black;
+    font-family: "all";
 }
 
 header {
@@ -121,6 +126,7 @@ color: white;
     align-items: center;
     color: white;
 }
+
 .flexbox-column{
     display: flex;
     justify-content: center;
@@ -128,6 +134,9 @@ color: white;
     flex-direction: column;
     width: 30%;
     text-align: center;
+}
+.flexbox-column img{
+    width: 100%;
 }
 .beneficios{
     display: flex;
@@ -174,12 +183,67 @@ color: white;
 .flexbox-column-ct img{
     width: 80%;
 }
+.nuestro-trabajo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.flexbox-column-nt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+}
+.flexbox-column-nt img{
+    width: 80%;
+}
+.contactame{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.container-niideayanomegustaesto{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container-niideayanomegustaesto img{
+    width: 40%;
+}
 .container-buttons{
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
 }
+.a12{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.a12 li{
+    padding-left: 20px;
+}
+.a12 i{
+    padding-right: 20px;
+}
+.algo{
+    display: flex;
+    width: 20%;
+    margin-top: 20px;
+}
+
 .btn{
   background-color: #EA4C89;
   border-radius: 8px;
@@ -193,11 +257,23 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
-
 .flexbox-div{
     display: flex;
     color: white;
+  
 
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    align-items: center;
+    color: #FFFFFF;
+}
+footer img{
+    width: 10%;
+    display: flex;
+    justify-content: center
 }
 
 

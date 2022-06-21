@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Importante';
+    src: url(./assets/fonts/PixelOperator8-Bold.ttf)
+}
+
+@font-face {
+    font-family: 'Normal';
+    src: url(./assets/fonts/PixelOperator8.ttf)
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: "normal";
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-bar-container{
+    display: flex;
+    width: 95%;
+    align-items: center;
+    justify-content: space-between;
+    border: 10px white solid;
+}
+.nav-bar-container img{
+    width: 5%;
+}
+.nav-bar{
+    display: flex;
+    width: 40%;
+}
+
+.nav-bar-list{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Importante";
+}
